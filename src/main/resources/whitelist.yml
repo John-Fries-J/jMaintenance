@@ -1,0 +1,6 @@
+#Reason is the kick reason that the user will get when they are not on the allowed list
+reason: "You are not whitelisted!"
+
+#Players that are allowed to join while maintenence is on.
+whitelisted-players:
+  - john_fries

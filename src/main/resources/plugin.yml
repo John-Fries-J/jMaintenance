@@ -1,0 +1,17 @@
+name: jMaintenence
+version: '1.0'
+main: org.johnfries.jMaintenence.JMaintenence
+api-version: '1.21'
+authors: [ john-fries ]
+description: Simple Maintenence plugin made by John Fries
+website: https://johnfries.net
+commands:
+  maintenenceon:
+    description: Enable maintenance mode with a whitelist.
+    usage: /maintenenceon
+  maintenenceoff:
+    description: Disable maintenance mode.
+    usage: /maintenenceoff
+  maintenence:
+    description: Add or remove players from the whitelist.
+    usage: /maintenence <add|remove> <username>
